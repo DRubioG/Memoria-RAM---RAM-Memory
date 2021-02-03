@@ -1,2 +1,10 @@
 # Memoria RAM / RAM Memory
- design of a Ram Memory
+In this GitHub's repository will be placed the design of a Ram Memories
+
+- [SODIMM](/SODIMM)
+
+The SODIMM memories are the laptop memories
+
+- [UDIMM](/UDIMM)
+
+The UDIMM memories are the PC memories

@@ -1,0 +1,1717 @@
+EESchema Schematic File Version 4
+LIBS:DDR4_4Gb-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 3 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L DDR4:MT40A512M8 U2
+U 1 1 61667B95
+P 2250 5400
+F 0 "U2" H 2250 8265 50  0000 C CNN
+F 1 "MT40A512M8" H 2250 8174 50  0000 C CNN
+F 2 "DDR4_4Gb:BGA-117_9x13_9.0x10.5mm" H 2600 2650 50  0001 C CNN
+F 3 "" H 2600 2650 50  0001 C CNN
+	1    2250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 7950 1300 7900
+Wire Wire Line
+	1300 7900 1500 7900
+Wire Wire Line
+	1300 8350 1300 8250
+Text GLabel 1350 7000 0    50   Input ~ 0
+RESET_n
+Wire Wire Line
+	1350 7000 1500 7000
+Wire Wire Line
+	1050 5200 1400 5200
+Wire Wire Line
+	1400 5200 1400 5100
+Wire Wire Line
+	1400 4900 1500 4900
+Wire Wire Line
+	1500 5600 1400 5600
+Wire Wire Line
+	1400 5600 1400 5500
+Connection ~ 1400 5200
+Wire Wire Line
+	1500 5000 1400 5000
+Connection ~ 1400 5000
+Wire Wire Line
+	1400 5000 1400 4900
+Wire Wire Line
+	1500 5100 1400 5100
+Connection ~ 1400 5100
+Wire Wire Line
+	1400 5100 1400 5000
+Wire Wire Line
+	1500 5200 1400 5200
+Wire Wire Line
+	1500 5300 1400 5300
+Connection ~ 1400 5300
+Wire Wire Line
+	1400 5300 1400 5200
+Wire Wire Line
+	1500 5400 1400 5400
+Connection ~ 1400 5400
+Wire Wire Line
+	1400 5400 1400 5300
+Wire Wire Line
+	1500 5500 1400 5500
+Connection ~ 1400 5500
+Wire Wire Line
+	1400 5500 1400 5400
+Wire Wire Line
+	1050 6050 1400 6050
+Wire Wire Line
+	1400 6050 1400 5950
+Connection ~ 1400 6050
+Wire Wire Line
+	1500 5850 1400 5850
+Wire Wire Line
+	1500 5950 1400 5950
+Connection ~ 1400 5950
+Wire Wire Line
+	1400 5950 1400 5850
+Wire Wire Line
+	1500 6050 1400 6050
+Wire Wire Line
+	1500 6150 1400 6150
+Connection ~ 1400 6150
+Wire Wire Line
+	1400 6150 1400 6050
+Wire Wire Line
+	1500 6250 1400 6250
+Connection ~ 1400 6250
+Wire Wire Line
+	1400 6250 1400 6150
+Wire Wire Line
+	1500 6350 1400 6350
+Wire Wire Line
+	1400 6350 1400 6250
+Wire Wire Line
+	3450 4300 3100 4300
+Wire Wire Line
+	3100 4200 3100 4100
+Wire Wire Line
+	3100 3900 3000 3900
+Wire Wire Line
+	3000 4600 3100 4600
+Wire Wire Line
+	3100 4600 3100 4500
+Connection ~ 3100 4200
+Wire Wire Line
+	3000 4000 3100 4000
+Connection ~ 3100 4000
+Wire Wire Line
+	3100 4000 3100 3900
+Wire Wire Line
+	3000 4100 3100 4100
+Connection ~ 3100 4100
+Wire Wire Line
+	3100 4100 3100 4000
+Wire Wire Line
+	3000 4200 3100 4200
+Wire Wire Line
+	3000 4300 3100 4300
+Connection ~ 3100 4300
+Wire Wire Line
+	3100 4300 3100 4200
+Wire Wire Line
+	3000 4400 3100 4400
+Connection ~ 3100 4400
+Wire Wire Line
+	3000 4500 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 3100 4400
+Wire Wire Line
+	3100 4700 3100 4600
+Connection ~ 3100 4600
+Wire Wire Line
+	3000 4700 3100 4700
+Wire Wire Line
+	3000 4900 3100 4900
+Wire Wire Line
+	3100 4900 3100 5000
+Wire Wire Line
+	3100 5200 3000 5200
+Wire Wire Line
+	3000 5100 3100 5100
+Connection ~ 3100 5100
+Wire Wire Line
+	3100 5100 3100 5200
+Wire Wire Line
+	3000 5000 3100 5000
+Connection ~ 3100 5000
+Wire Wire Line
+	3100 5000 3100 5100
+Wire Wire Line
+	3450 5000 3100 5000
+Text GLabel 3150 5750 2    50   Input ~ 0
+ALERT_n
+Wire Wire Line
+	3150 5750 3000 5750
+Text GLabel 3150 6250 2    50   Input ~ 0
+PAR
+Wire Wire Line
+	3150 6250 3000 6250
+Text GLabel 1350 7200 0    50   Input ~ 0
+ACT_n
+Wire Wire Line
+	1350 7200 1500 7200
+Wire Wire Line
+	3000 5450 3100 5450
+Wire Wire Line
+	3000 5550 3100 5550
+Wire Wire Line
+	3100 5550 3100 5450
+Connection ~ 3100 5450
+NoConn ~ 1500 4550
+Text GLabel 1350 2850 0    50   Input ~ 0
+A0
+Wire Wire Line
+	1350 2850 1500 2850
+Text GLabel 1350 2950 0    50   Input ~ 0
+A1
+Wire Wire Line
+	1350 2950 1500 2950
+Text GLabel 1350 3050 0    50   Input ~ 0
+A2
+Wire Wire Line
+	1350 3050 1500 3050
+Text GLabel 1350 3150 0    50   Input ~ 0
+A3
+Wire Wire Line
+	1350 3150 1500 3150
+Text GLabel 1350 3250 0    50   Input ~ 0
+A4
+Wire Wire Line
+	1350 3250 1500 3250
+Text GLabel 1350 3350 0    50   Input ~ 0
+A5
+Wire Wire Line
+	1350 3350 1500 3350
+Text GLabel 1350 3450 0    50   Input ~ 0
+A6
+Wire Wire Line
+	1350 3450 1500 3450
+Text GLabel 1350 3550 0    50   Input ~ 0
+A7
+Wire Wire Line
+	1350 3550 1500 3550
+Text GLabel 1350 3650 0    50   Input ~ 0
+A8
+Wire Wire Line
+	1350 3650 1500 3650
+Text GLabel 1350 3750 0    50   Input ~ 0
+A9
+Wire Wire Line
+	1350 3750 1500 3750
+Text GLabel 1350 3850 0    50   Input ~ 0
+A10
+Wire Wire Line
+	1350 3850 1500 3850
+Text GLabel 1350 3950 0    50   Input ~ 0
+A11
+Wire Wire Line
+	1350 3950 1500 3950
+Text GLabel 1350 4050 0    50   Input ~ 0
+A12
+Wire Wire Line
+	1350 4050 1500 4050
+Text GLabel 1350 4150 0    50   Input ~ 0
+A13
+Wire Wire Line
+	1350 4150 1500 4150
+Text GLabel 1350 4250 0    50   Input ~ 0
+WE_n-A14
+Wire Wire Line
+	1350 4250 1500 4250
+Text GLabel 1350 4350 0    50   Input ~ 0
+CAS-A15
+Wire Wire Line
+	1350 4350 1500 4350
+Text GLabel 1350 4450 0    50   Input ~ 0
+RAS_n-A16
+Wire Wire Line
+	1350 4450 1500 4450
+Text GLabel 1350 6700 0    50   Input ~ 0
+BG0
+Wire Wire Line
+	1350 6700 1500 6700
+Text GLabel 1350 6800 0    50   Input ~ 0
+BG1
+Wire Wire Line
+	1350 6800 1500 6800
+Text GLabel 3150 6550 2    50   Input ~ 0
+BA0
+Wire Wire Line
+	3150 6550 3000 6550
+Text GLabel 3150 6650 2    50   Input ~ 0
+BA1
+Wire Wire Line
+	3150 6650 3000 6650
+Text GLabel 3150 6800 2    50   Input ~ 0
+CKE0
+Wire Wire Line
+	3150 6800 3000 6800
+NoConn ~ 3000 6900
+NoConn ~ 3000 7000
+NoConn ~ 3000 7100
+Text GLabel 3150 7200 2    50   Input ~ 0
+ODT0
+Wire Wire Line
+	3150 7200 3000 7200
+Text GLabel 3150 7400 2    50   Input ~ 0
+CS0_n
+Wire Wire Line
+	3150 7400 3000 7400
+NoConn ~ 3000 7600
+Text GLabel 3150 3150 2    50   Input ~ 0
+DQ3
+Text GLabel 3150 3550 2    50   Input ~ 0
+DQ7
+Text GLabel 3150 2950 2    50   Input ~ 0
+DQ1
+Text GLabel 3150 3350 2    50   Input ~ 0
+DQ5
+Text GLabel 3150 3050 2    50   Input ~ 0
+DQ2
+Text GLabel 3150 3450 2    50   Input ~ 0
+DQ6
+Text GLabel 3150 2850 2    50   Input ~ 0
+DQ0
+Text GLabel 3150 3250 2    50   Input ~ 0
+DQ4
+Wire Wire Line
+	3150 2850 3000 2850
+Wire Wire Line
+	3150 2950 3000 2950
+Wire Wire Line
+	3000 3050 3150 3050
+Wire Wire Line
+	3150 3150 3000 3150
+Wire Wire Line
+	3000 3250 3150 3250
+Wire Wire Line
+	3000 3350 3150 3350
+Wire Wire Line
+	3000 3450 3150 3450
+Wire Wire Line
+	3150 3550 3000 3550
+Wire Wire Line
+	3250 6400 3000 6400
+Wire Wire Line
+	3100 4300 3100 4400
+Text GLabel 3150 5950 2    50   Input ~ 0
+DQS0_c
+Wire Wire Line
+	3000 5950 3150 5950
+Wire Wire Line
+	3000 6050 3150 6050
+Text GLabel 3150 6050 2    50   Input ~ 0
+DQS0_t
+Wire Wire Line
+	3000 7700 3150 7700
+$Comp
+L DDR4:R R3
+U 1 1 675C9E72
+P 1300 8100
+F 0 "R3" V 1254 8188 50  0000 L CNN
+F 1 "240" V 1345 8188 50  0000 L CNN
+F 2 "" H 1300 8000 50  0001 C CNN
+F 3 "" H 1300 8000 50  0001 C CNN
+	1    1300 8100
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0109
+U 1 1 688866D6
+P 3450 4300
+F 0 "#U0109" H 3450 4100 50  0001 C CNN
+F 1 "VSS" V 3450 4428 50  0000 L CNN
+F 2 "" H 3450 4100 50  0001 C CNN
+F 3 "" H 3450 4100 50  0001 C CNN
+	1    3450 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0110
+U 1 1 68887109
+P 3450 5000
+F 0 "#U0110" H 3450 4800 50  0001 C CNN
+F 1 "VSS" V 3450 5128 50  0000 L CNN
+F 2 "" H 3450 4800 50  0001 C CNN
+F 3 "" H 3450 4800 50  0001 C CNN
+	1    3450 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0111
+U 1 1 6888DE66
+P 1300 8350
+F 0 "#U0111" H 1300 8150 50  0001 C CNN
+F 1 "VSS" H 1250 8500 50  0000 L CNN
+F 2 "" H 1300 8150 50  0001 C CNN
+F 3 "" H 1300 8150 50  0001 C CNN
+	1    1300 8350
+	-1   0    0    1   
+$EndComp
+$Comp
+L DDR4:VDD #U0112
+U 1 1 688A99A1
+P 1050 5200
+F 0 "#U0112" H 1050 5050 50  0001 C CNN
+F 1 "VDD" V 1050 5450 50  0000 R CNN
+F 2 "" H 1050 5050 50  0001 C CNN
+F 3 "" H 1050 5050 50  0001 C CNN
+	1    1050 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VSS #U0113
+U 1 1 688AA648
+P 1050 6050
+F 0 "#U0113" H 1050 5850 50  0001 C CNN
+F 1 "VSS" V 1050 6178 50  0000 L CNN
+F 2 "" H 1050 5850 50  0001 C CNN
+F 3 "" H 1050 5850 50  0001 C CNN
+	1    1050 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VREFCA #U0114
+U 1 1 688B27B4
+P 1050 6550
+F 0 "#U0114" H 1050 6350 50  0001 C CNN
+F 1 "VREFCA" V 1050 6950 50  0000 R CNN
+F 2 "" H 1050 6350 50  0001 C CNN
+F 3 "" H 1050 6350 50  0001 C CNN
+	1    1050 6550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 6550 1500 6550
+$Comp
+L DDR4:VPP #U0115
+U 1 1 688B99BF
+P 3450 5450
+F 0 "#U0115" H 3450 5250 50  0001 C CNN
+F 1 "VPP" V 3450 5578 50  0000 L CNN
+F 2 "" H 3450 5250 50  0001 C CNN
+F 3 "" H 3450 5250 50  0001 C CNN
+	1    3450 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 5450 3450 5450
+$Comp
+L DDR4:VSS #PWR0101
+U 1 1 688C0566
+P 3250 6400
+F 0 "#PWR0101" H 3050 6250 50  0001 C CNN
+F 1 "VSS" V 3250 6528 50  0000 L CNN
+F 2 "" H 3250 6400 50  0001 C CNN
+F 3 "" H 3250 6400 50  0001 C CNN
+	1    3250 6400
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:MT40A512M8 U3
+U 1 1 688DC183
+P 6200 5350
+F 0 "U3" H 6200 8215 50  0000 C CNN
+F 1 "MT40A512M8" H 6200 8124 50  0000 C CNN
+F 2 "DDR4_4Gb:BGA-117_9x13_9.0x10.5mm" H 6550 2600 50  0001 C CNN
+F 3 "" H 6550 2600 50  0001 C CNN
+	1    6200 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 7900 5250 7850
+Wire Wire Line
+	5250 7850 5450 7850
+Wire Wire Line
+	5250 8300 5250 8200
+Text GLabel 5300 6950 0    50   Input ~ 0
+RESET_n
+Wire Wire Line
+	5300 6950 5450 6950
+Wire Wire Line
+	5000 5150 5350 5150
+Wire Wire Line
+	5350 5150 5350 5050
+Wire Wire Line
+	5350 4850 5450 4850
+Wire Wire Line
+	5450 5550 5350 5550
+Wire Wire Line
+	5350 5550 5350 5450
+Connection ~ 5350 5150
+Wire Wire Line
+	5450 4950 5350 4950
+Connection ~ 5350 4950
+Wire Wire Line
+	5350 4950 5350 4850
+Wire Wire Line
+	5450 5050 5350 5050
+Connection ~ 5350 5050
+Wire Wire Line
+	5350 5050 5350 4950
+Wire Wire Line
+	5450 5150 5350 5150
+Wire Wire Line
+	5450 5250 5350 5250
+Connection ~ 5350 5250
+Wire Wire Line
+	5350 5250 5350 5150
+Wire Wire Line
+	5450 5350 5350 5350
+Connection ~ 5350 5350
+Wire Wire Line
+	5350 5350 5350 5250
+Wire Wire Line
+	5450 5450 5350 5450
+Connection ~ 5350 5450
+Wire Wire Line
+	5350 5450 5350 5350
+Wire Wire Line
+	5000 6000 5350 6000
+Wire Wire Line
+	5350 6000 5350 5900
+Connection ~ 5350 6000
+Wire Wire Line
+	5450 5800 5350 5800
+Wire Wire Line
+	5450 5900 5350 5900
+Connection ~ 5350 5900
+Wire Wire Line
+	5350 5900 5350 5800
+Wire Wire Line
+	5450 6000 5350 6000
+Wire Wire Line
+	5450 6100 5350 6100
+Connection ~ 5350 6100
+Wire Wire Line
+	5350 6100 5350 6000
+Wire Wire Line
+	5450 6200 5350 6200
+Connection ~ 5350 6200
+Wire Wire Line
+	5350 6200 5350 6100
+Wire Wire Line
+	5450 6300 5350 6300
+Wire Wire Line
+	5350 6300 5350 6200
+Wire Wire Line
+	7400 4250 7050 4250
+Wire Wire Line
+	7050 4150 7050 4050
+Wire Wire Line
+	7050 3850 6950 3850
+Wire Wire Line
+	6950 4550 7050 4550
+Wire Wire Line
+	7050 4550 7050 4450
+Connection ~ 7050 4150
+Wire Wire Line
+	6950 3950 7050 3950
+Connection ~ 7050 3950
+Wire Wire Line
+	7050 3950 7050 3850
+Wire Wire Line
+	6950 4050 7050 4050
+Connection ~ 7050 4050
+Wire Wire Line
+	7050 4050 7050 3950
+Wire Wire Line
+	6950 4150 7050 4150
+Wire Wire Line
+	6950 4250 7050 4250
+Connection ~ 7050 4250
+Wire Wire Line
+	7050 4250 7050 4150
+Wire Wire Line
+	6950 4350 7050 4350
+Connection ~ 7050 4350
+Wire Wire Line
+	6950 4450 7050 4450
+Connection ~ 7050 4450
+Wire Wire Line
+	7050 4450 7050 4350
+Wire Wire Line
+	7050 4650 7050 4550
+Connection ~ 7050 4550
+Wire Wire Line
+	6950 4650 7050 4650
+Wire Wire Line
+	6950 4850 7050 4850
+Wire Wire Line
+	7050 4850 7050 4950
+Wire Wire Line
+	7050 5150 6950 5150
+Wire Wire Line
+	6950 5050 7050 5050
+Connection ~ 7050 5050
+Wire Wire Line
+	7050 5050 7050 5150
+Wire Wire Line
+	6950 4950 7050 4950
+Connection ~ 7050 4950
+Wire Wire Line
+	7050 4950 7050 5050
+Wire Wire Line
+	7400 4950 7050 4950
+Text GLabel 7100 5700 2    50   Input ~ 0
+ALERT_n
+Wire Wire Line
+	7100 5700 6950 5700
+Text GLabel 7100 6200 2    50   Input ~ 0
+PAR
+Wire Wire Line
+	7100 6200 6950 6200
+Text GLabel 5300 7150 0    50   Input ~ 0
+ACT_n
+Wire Wire Line
+	5300 7150 5450 7150
+Wire Wire Line
+	6950 5400 7050 5400
+Wire Wire Line
+	6950 5500 7050 5500
+Wire Wire Line
+	7050 5500 7050 5400
+Connection ~ 7050 5400
+NoConn ~ 5450 4500
+Text GLabel 5300 2800 0    50   Input ~ 0
+A0
+Wire Wire Line
+	5300 2800 5450 2800
+Text GLabel 5300 2900 0    50   Input ~ 0
+A1
+Wire Wire Line
+	5300 2900 5450 2900
+Text GLabel 5300 3000 0    50   Input ~ 0
+A2
+Wire Wire Line
+	5300 3000 5450 3000
+Text GLabel 5300 3100 0    50   Input ~ 0
+A3
+Wire Wire Line
+	5300 3100 5450 3100
+Text GLabel 5300 3200 0    50   Input ~ 0
+A4
+Wire Wire Line
+	5300 3200 5450 3200
+Text GLabel 5300 3300 0    50   Input ~ 0
+A5
+Wire Wire Line
+	5300 3300 5450 3300
+Text GLabel 5300 3400 0    50   Input ~ 0
+A6
+Wire Wire Line
+	5300 3400 5450 3400
+Text GLabel 5300 3500 0    50   Input ~ 0
+A7
+Wire Wire Line
+	5300 3500 5450 3500
+Text GLabel 5300 3600 0    50   Input ~ 0
+A8
+Wire Wire Line
+	5300 3600 5450 3600
+Text GLabel 5300 3700 0    50   Input ~ 0
+A9
+Wire Wire Line
+	5300 3700 5450 3700
+Text GLabel 5300 3800 0    50   Input ~ 0
+A10
+Wire Wire Line
+	5300 3800 5450 3800
+Text GLabel 5300 3900 0    50   Input ~ 0
+A11
+Wire Wire Line
+	5300 3900 5450 3900
+Text GLabel 5300 4000 0    50   Input ~ 0
+A12
+Wire Wire Line
+	5300 4000 5450 4000
+Text GLabel 5300 4100 0    50   Input ~ 0
+A13
+Wire Wire Line
+	5300 4100 5450 4100
+Text GLabel 5300 4200 0    50   Input ~ 0
+WE_n-A14
+Wire Wire Line
+	5300 4200 5450 4200
+Text GLabel 5300 4300 0    50   Input ~ 0
+CAS-A15
+Wire Wire Line
+	5300 4300 5450 4300
+Text GLabel 5300 4400 0    50   Input ~ 0
+RAS_n-A16
+Wire Wire Line
+	5300 4400 5450 4400
+Text GLabel 5300 6650 0    50   Input ~ 0
+BG0
+Wire Wire Line
+	5300 6650 5450 6650
+Text GLabel 5300 6750 0    50   Input ~ 0
+BG1
+Wire Wire Line
+	5300 6750 5450 6750
+Text GLabel 7100 6500 2    50   Input ~ 0
+BA0
+Wire Wire Line
+	7100 6500 6950 6500
+Text GLabel 7100 6600 2    50   Input ~ 0
+BA1
+Wire Wire Line
+	7100 6600 6950 6600
+Text GLabel 7100 6750 2    50   Input ~ 0
+CKE0
+Wire Wire Line
+	7100 6750 6950 6750
+NoConn ~ 6950 6850
+NoConn ~ 6950 6950
+NoConn ~ 6950 7050
+Text GLabel 7100 7150 2    50   Input ~ 0
+ODT0
+Wire Wire Line
+	7100 7150 6950 7150
+Text GLabel 7100 7350 2    50   Input ~ 0
+CS0_n
+Wire Wire Line
+	7100 7350 6950 7350
+NoConn ~ 6950 7550
+Wire Wire Line
+	7100 2800 6950 2800
+Wire Wire Line
+	7100 2900 6950 2900
+Wire Wire Line
+	6950 3000 7100 3000
+Wire Wire Line
+	7100 3100 6950 3100
+Wire Wire Line
+	6950 3200 7100 3200
+Wire Wire Line
+	6950 3300 7100 3300
+Wire Wire Line
+	6950 3400 7100 3400
+Wire Wire Line
+	7100 3500 6950 3500
+Wire Wire Line
+	7200 6350 6950 6350
+Wire Wire Line
+	7050 4250 7050 4350
+Wire Wire Line
+	6950 5900 7100 5900
+Wire Wire Line
+	6950 6000 7100 6000
+Wire Wire Line
+	6950 7650 7100 7650
+$Comp
+L DDR4:R R128
+U 1 1 688DC22D
+P 5250 8050
+F 0 "R128" V 5204 8138 50  0000 L CNN
+F 1 "240" V 5295 8138 50  0000 L CNN
+F 2 "" H 5250 7950 50  0001 C CNN
+F 3 "" H 5250 7950 50  0001 C CNN
+	1    5250 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0116
+U 1 1 688DC233
+P 7400 4250
+F 0 "#U0116" H 7400 4050 50  0001 C CNN
+F 1 "VSS" V 7400 4378 50  0000 L CNN
+F 2 "" H 7400 4050 50  0001 C CNN
+F 3 "" H 7400 4050 50  0001 C CNN
+	1    7400 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0117
+U 1 1 688DC239
+P 7400 4950
+F 0 "#U0117" H 7400 4750 50  0001 C CNN
+F 1 "VSS" V 7400 5078 50  0000 L CNN
+F 2 "" H 7400 4750 50  0001 C CNN
+F 3 "" H 7400 4750 50  0001 C CNN
+	1    7400 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0118
+U 1 1 688DC23F
+P 5250 8300
+F 0 "#U0118" H 5250 8100 50  0001 C CNN
+F 1 "VSS" H 5200 8450 50  0000 L CNN
+F 2 "" H 5250 8100 50  0001 C CNN
+F 3 "" H 5250 8100 50  0001 C CNN
+	1    5250 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L DDR4:VDD #U0119
+U 1 1 688DC245
+P 5000 5150
+F 0 "#U0119" H 5000 5000 50  0001 C CNN
+F 1 "VDD" V 5000 5400 50  0000 R CNN
+F 2 "" H 5000 5000 50  0001 C CNN
+F 3 "" H 5000 5000 50  0001 C CNN
+	1    5000 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VSS #U0120
+U 1 1 688DC24B
+P 5000 6000
+F 0 "#U0120" H 5000 5800 50  0001 C CNN
+F 1 "VSS" V 5000 6128 50  0000 L CNN
+F 2 "" H 5000 5800 50  0001 C CNN
+F 3 "" H 5000 5800 50  0001 C CNN
+	1    5000 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VREFCA #U0121
+U 1 1 688DC251
+P 5000 6500
+F 0 "#U0121" H 5000 6300 50  0001 C CNN
+F 1 "VREFCA" V 5000 6900 50  0000 R CNN
+F 2 "" H 5000 6300 50  0001 C CNN
+F 3 "" H 5000 6300 50  0001 C CNN
+	1    5000 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5000 6500 5450 6500
+$Comp
+L DDR4:VPP #U0122
+U 1 1 688DC258
+P 7400 5400
+F 0 "#U0122" H 7400 5200 50  0001 C CNN
+F 1 "VPP" V 7400 5528 50  0000 L CNN
+F 2 "" H 7400 5200 50  0001 C CNN
+F 3 "" H 7400 5200 50  0001 C CNN
+	1    7400 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 5400 7400 5400
+$Comp
+L DDR4:VSS #PWR0105
+U 1 1 688DC25F
+P 7200 6350
+F 0 "#PWR0105" H 7000 6200 50  0001 C CNN
+F 1 "VSS" V 7200 6478 50  0000 L CNN
+F 2 "" H 7200 6350 50  0001 C CNN
+F 3 "" H 7200 6350 50  0001 C CNN
+	1    7200 6350
+	0    1    1    0   
+$EndComp
+Text GLabel 7100 3100 2    50   Input ~ 0
+DQ11
+Text GLabel 7100 3500 2    50   Input ~ 0
+DQ15
+Text GLabel 7100 2900 2    50   Input ~ 0
+DQ9
+Text GLabel 7100 3300 2    50   Input ~ 0
+DQ13
+Text GLabel 7100 3000 2    50   Input ~ 0
+DQ10
+Text GLabel 7100 3400 2    50   Input ~ 0
+DQ14
+Text GLabel 7100 2800 2    50   Input ~ 0
+DQ8
+Text GLabel 7100 3200 2    50   Input ~ 0
+DQ12
+Text GLabel 7100 6000 2    50   Input ~ 0
+DQS1_t
+Text GLabel 7100 5900 2    50   Input ~ 0
+DQS1_c
+Text GLabel 3150 7700 2    50   Input ~ 0
+DM0_n-DBIO_n
+Text GLabel 7100 7650 2    50   Input ~ 0
+DMI_n-DBI1_n
+$Comp
+L DDR4:MT40A512M8 U4
+U 1 1 6895E536
+P 10600 5350
+F 0 "U4" H 10600 8215 50  0000 C CNN
+F 1 "MT40A512M8" H 10600 8124 50  0000 C CNN
+F 2 "DDR4_4Gb:BGA-117_9x13_9.0x10.5mm" H 10950 2600 50  0001 C CNN
+F 3 "" H 10950 2600 50  0001 C CNN
+	1    10600 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 7900 9650 7850
+Wire Wire Line
+	9650 7850 9850 7850
+Wire Wire Line
+	9650 8300 9650 8200
+Text GLabel 9700 6950 0    50   Input ~ 0
+RESET_n
+Wire Wire Line
+	9700 6950 9850 6950
+Wire Wire Line
+	9400 5150 9750 5150
+Wire Wire Line
+	9750 5150 9750 5050
+Wire Wire Line
+	9750 4850 9850 4850
+Wire Wire Line
+	9850 5550 9750 5550
+Wire Wire Line
+	9750 5550 9750 5450
+Connection ~ 9750 5150
+Wire Wire Line
+	9850 4950 9750 4950
+Connection ~ 9750 4950
+Wire Wire Line
+	9750 4950 9750 4850
+Wire Wire Line
+	9850 5050 9750 5050
+Connection ~ 9750 5050
+Wire Wire Line
+	9750 5050 9750 4950
+Wire Wire Line
+	9850 5150 9750 5150
+Wire Wire Line
+	9850 5250 9750 5250
+Connection ~ 9750 5250
+Wire Wire Line
+	9750 5250 9750 5150
+Wire Wire Line
+	9850 5350 9750 5350
+Connection ~ 9750 5350
+Wire Wire Line
+	9750 5350 9750 5250
+Wire Wire Line
+	9850 5450 9750 5450
+Connection ~ 9750 5450
+Wire Wire Line
+	9750 5450 9750 5350
+Wire Wire Line
+	9400 6000 9750 6000
+Wire Wire Line
+	9750 6000 9750 5900
+Connection ~ 9750 6000
+Wire Wire Line
+	9850 5800 9750 5800
+Wire Wire Line
+	9850 5900 9750 5900
+Connection ~ 9750 5900
+Wire Wire Line
+	9750 5900 9750 5800
+Wire Wire Line
+	9850 6000 9750 6000
+Wire Wire Line
+	9850 6100 9750 6100
+Connection ~ 9750 6100
+Wire Wire Line
+	9750 6100 9750 6000
+Wire Wire Line
+	9850 6200 9750 6200
+Connection ~ 9750 6200
+Wire Wire Line
+	9750 6200 9750 6100
+Wire Wire Line
+	9850 6300 9750 6300
+Wire Wire Line
+	9750 6300 9750 6200
+Wire Wire Line
+	11800 4250 11450 4250
+Wire Wire Line
+	11450 4150 11450 4050
+Wire Wire Line
+	11450 3850 11350 3850
+Wire Wire Line
+	11350 4550 11450 4550
+Wire Wire Line
+	11450 4550 11450 4450
+Connection ~ 11450 4150
+Wire Wire Line
+	11350 3950 11450 3950
+Connection ~ 11450 3950
+Wire Wire Line
+	11450 3950 11450 3850
+Wire Wire Line
+	11350 4050 11450 4050
+Connection ~ 11450 4050
+Wire Wire Line
+	11450 4050 11450 3950
+Wire Wire Line
+	11350 4150 11450 4150
+Wire Wire Line
+	11350 4250 11450 4250
+Connection ~ 11450 4250
+Wire Wire Line
+	11450 4250 11450 4150
+Wire Wire Line
+	11350 4350 11450 4350
+Connection ~ 11450 4350
+Wire Wire Line
+	11350 4450 11450 4450
+Connection ~ 11450 4450
+Wire Wire Line
+	11450 4450 11450 4350
+Wire Wire Line
+	11450 4650 11450 4550
+Connection ~ 11450 4550
+Wire Wire Line
+	11350 4650 11450 4650
+Wire Wire Line
+	11350 4850 11450 4850
+Wire Wire Line
+	11450 4850 11450 4950
+Wire Wire Line
+	11450 5150 11350 5150
+Wire Wire Line
+	11350 5050 11450 5050
+Connection ~ 11450 5050
+Wire Wire Line
+	11450 5050 11450 5150
+Wire Wire Line
+	11350 4950 11450 4950
+Connection ~ 11450 4950
+Wire Wire Line
+	11450 4950 11450 5050
+Wire Wire Line
+	11800 4950 11450 4950
+Text GLabel 11500 5700 2    50   Input ~ 0
+ALERT_n
+Wire Wire Line
+	11500 5700 11350 5700
+Text GLabel 11500 6200 2    50   Input ~ 0
+PAR
+Wire Wire Line
+	11500 6200 11350 6200
+Text GLabel 9700 7150 0    50   Input ~ 0
+ACT_n
+Wire Wire Line
+	9700 7150 9850 7150
+Wire Wire Line
+	11350 5400 11450 5400
+Wire Wire Line
+	11350 5500 11450 5500
+Wire Wire Line
+	11450 5500 11450 5400
+Connection ~ 11450 5400
+NoConn ~ 9850 4500
+Text GLabel 9700 2800 0    50   Input ~ 0
+A0
+Wire Wire Line
+	9700 2800 9850 2800
+Text GLabel 9700 2900 0    50   Input ~ 0
+A1
+Wire Wire Line
+	9700 2900 9850 2900
+Text GLabel 9700 3000 0    50   Input ~ 0
+A2
+Wire Wire Line
+	9700 3000 9850 3000
+Text GLabel 9700 3100 0    50   Input ~ 0
+A3
+Wire Wire Line
+	9700 3100 9850 3100
+Text GLabel 9700 3200 0    50   Input ~ 0
+A4
+Wire Wire Line
+	9700 3200 9850 3200
+Text GLabel 9700 3300 0    50   Input ~ 0
+A5
+Wire Wire Line
+	9700 3300 9850 3300
+Text GLabel 9700 3400 0    50   Input ~ 0
+A6
+Wire Wire Line
+	9700 3400 9850 3400
+Text GLabel 9700 3500 0    50   Input ~ 0
+A7
+Wire Wire Line
+	9700 3500 9850 3500
+Text GLabel 9700 3600 0    50   Input ~ 0
+A8
+Wire Wire Line
+	9700 3600 9850 3600
+Text GLabel 9700 3700 0    50   Input ~ 0
+A9
+Wire Wire Line
+	9700 3700 9850 3700
+Text GLabel 9700 3800 0    50   Input ~ 0
+A10
+Wire Wire Line
+	9700 3800 9850 3800
+Text GLabel 9700 3900 0    50   Input ~ 0
+A11
+Wire Wire Line
+	9700 3900 9850 3900
+Text GLabel 9700 4000 0    50   Input ~ 0
+A12
+Wire Wire Line
+	9700 4000 9850 4000
+Text GLabel 9700 4100 0    50   Input ~ 0
+A13
+Wire Wire Line
+	9700 4100 9850 4100
+Text GLabel 9700 4200 0    50   Input ~ 0
+WE_n-A14
+Wire Wire Line
+	9700 4200 9850 4200
+Text GLabel 9700 4300 0    50   Input ~ 0
+CAS-A15
+Wire Wire Line
+	9700 4300 9850 4300
+Text GLabel 9700 4400 0    50   Input ~ 0
+RAS_n-A16
+Wire Wire Line
+	9700 4400 9850 4400
+Text GLabel 9700 6650 0    50   Input ~ 0
+BG0
+Wire Wire Line
+	9700 6650 9850 6650
+Text GLabel 9700 6750 0    50   Input ~ 0
+BG1
+Wire Wire Line
+	9700 6750 9850 6750
+Text GLabel 11500 6500 2    50   Input ~ 0
+BA0
+Wire Wire Line
+	11500 6500 11350 6500
+Text GLabel 11500 6600 2    50   Input ~ 0
+BA1
+Wire Wire Line
+	11500 6600 11350 6600
+Text GLabel 11500 6750 2    50   Input ~ 0
+CKE0
+Wire Wire Line
+	11500 6750 11350 6750
+NoConn ~ 11350 6850
+NoConn ~ 11350 6950
+NoConn ~ 11350 7050
+Text GLabel 11500 7150 2    50   Input ~ 0
+ODT0
+Wire Wire Line
+	11500 7150 11350 7150
+Text GLabel 11500 7350 2    50   Input ~ 0
+CS0_n
+Wire Wire Line
+	11500 7350 11350 7350
+NoConn ~ 11350 7550
+Wire Wire Line
+	11500 2800 11350 2800
+Wire Wire Line
+	11500 2900 11350 2900
+Wire Wire Line
+	11350 3000 11500 3000
+Wire Wire Line
+	11500 3100 11350 3100
+Wire Wire Line
+	11350 3200 11500 3200
+Wire Wire Line
+	11350 3300 11500 3300
+Wire Wire Line
+	11350 3400 11500 3400
+Wire Wire Line
+	11500 3500 11350 3500
+Wire Wire Line
+	11600 6350 11350 6350
+Wire Wire Line
+	11450 4250 11450 4350
+Wire Wire Line
+	11350 5900 11500 5900
+Wire Wire Line
+	11350 6000 11500 6000
+Wire Wire Line
+	11350 7650 11500 7650
+$Comp
+L DDR4:R R129
+U 1 1 6895E5D5
+P 9650 8050
+F 0 "R129" V 9604 8138 50  0000 L CNN
+F 1 "240" V 9695 8138 50  0000 L CNN
+F 2 "" H 9650 7950 50  0001 C CNN
+F 3 "" H 9650 7950 50  0001 C CNN
+	1    9650 8050
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0123
+U 1 1 6895E5DB
+P 11800 4250
+F 0 "#U0123" H 11800 4050 50  0001 C CNN
+F 1 "VSS" V 11800 4378 50  0000 L CNN
+F 2 "" H 11800 4050 50  0001 C CNN
+F 3 "" H 11800 4050 50  0001 C CNN
+	1    11800 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0124
+U 1 1 6895E5E1
+P 11800 4950
+F 0 "#U0124" H 11800 4750 50  0001 C CNN
+F 1 "VSS" V 11800 5078 50  0000 L CNN
+F 2 "" H 11800 4750 50  0001 C CNN
+F 3 "" H 11800 4750 50  0001 C CNN
+	1    11800 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0125
+U 1 1 6895E5E7
+P 9650 8300
+F 0 "#U0125" H 9650 8100 50  0001 C CNN
+F 1 "VSS" H 9600 8450 50  0000 L CNN
+F 2 "" H 9650 8100 50  0001 C CNN
+F 3 "" H 9650 8100 50  0001 C CNN
+	1    9650 8300
+	-1   0    0    1   
+$EndComp
+$Comp
+L DDR4:VDD #U0126
+U 1 1 6895E5ED
+P 9400 5150
+F 0 "#U0126" H 9400 5000 50  0001 C CNN
+F 1 "VDD" V 9400 5400 50  0000 R CNN
+F 2 "" H 9400 5000 50  0001 C CNN
+F 3 "" H 9400 5000 50  0001 C CNN
+	1    9400 5150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VSS #U0127
+U 1 1 6895E5F3
+P 9400 6000
+F 0 "#U0127" H 9400 5800 50  0001 C CNN
+F 1 "VSS" V 9400 6128 50  0000 L CNN
+F 2 "" H 9400 5800 50  0001 C CNN
+F 3 "" H 9400 5800 50  0001 C CNN
+	1    9400 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VREFCA #U0128
+U 1 1 6895E5F9
+P 9400 6500
+F 0 "#U0128" H 9400 6300 50  0001 C CNN
+F 1 "VREFCA" V 9400 6900 50  0000 R CNN
+F 2 "" H 9400 6300 50  0001 C CNN
+F 3 "" H 9400 6300 50  0001 C CNN
+	1    9400 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9400 6500 9850 6500
+$Comp
+L DDR4:VPP #U0129
+U 1 1 6895E600
+P 11800 5400
+F 0 "#U0129" H 11800 5200 50  0001 C CNN
+F 1 "VPP" V 11800 5528 50  0000 L CNN
+F 2 "" H 11800 5200 50  0001 C CNN
+F 3 "" H 11800 5200 50  0001 C CNN
+	1    11800 5400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11450 5400 11800 5400
+$Comp
+L DDR4:VSS #PWR0106
+U 1 1 6895E607
+P 11600 6350
+F 0 "#PWR0106" H 11400 6200 50  0001 C CNN
+F 1 "VSS" V 11600 6478 50  0000 L CNN
+F 2 "" H 11600 6350 50  0001 C CNN
+F 3 "" H 11600 6350 50  0001 C CNN
+	1    11600 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:MT40A512M8 U5
+U 1 1 68A23530
+P 14150 5250
+F 0 "U5" H 14150 8115 50  0000 C CNN
+F 1 "MT40A512M8" H 14150 8024 50  0000 C CNN
+F 2 "DDR4_4Gb:BGA-117_9x13_9.0x10.5mm" H 14500 2500 50  0001 C CNN
+F 3 "" H 14500 2500 50  0001 C CNN
+	1    14150 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13200 7800 13200 7750
+Wire Wire Line
+	13200 7750 13400 7750
+Wire Wire Line
+	13200 8200 13200 8100
+Text GLabel 13250 6850 0    50   Input ~ 0
+RESET_n
+Wire Wire Line
+	13250 6850 13400 6850
+Wire Wire Line
+	12950 5050 13300 5050
+Wire Wire Line
+	13300 5050 13300 4950
+Wire Wire Line
+	13300 4750 13400 4750
+Wire Wire Line
+	13400 5450 13300 5450
+Wire Wire Line
+	13300 5450 13300 5350
+Connection ~ 13300 5050
+Wire Wire Line
+	13400 4850 13300 4850
+Connection ~ 13300 4850
+Wire Wire Line
+	13300 4850 13300 4750
+Wire Wire Line
+	13400 4950 13300 4950
+Connection ~ 13300 4950
+Wire Wire Line
+	13300 4950 13300 4850
+Wire Wire Line
+	13400 5050 13300 5050
+Wire Wire Line
+	13400 5150 13300 5150
+Connection ~ 13300 5150
+Wire Wire Line
+	13300 5150 13300 5050
+Wire Wire Line
+	13400 5250 13300 5250
+Connection ~ 13300 5250
+Wire Wire Line
+	13300 5250 13300 5150
+Wire Wire Line
+	13400 5350 13300 5350
+Connection ~ 13300 5350
+Wire Wire Line
+	13300 5350 13300 5250
+Wire Wire Line
+	12950 5900 13300 5900
+Wire Wire Line
+	13300 5900 13300 5800
+Connection ~ 13300 5900
+Wire Wire Line
+	13400 5700 13300 5700
+Wire Wire Line
+	13400 5800 13300 5800
+Connection ~ 13300 5800
+Wire Wire Line
+	13300 5800 13300 5700
+Wire Wire Line
+	13400 5900 13300 5900
+Wire Wire Line
+	13400 6000 13300 6000
+Connection ~ 13300 6000
+Wire Wire Line
+	13300 6000 13300 5900
+Wire Wire Line
+	13400 6100 13300 6100
+Connection ~ 13300 6100
+Wire Wire Line
+	13300 6100 13300 6000
+Wire Wire Line
+	13400 6200 13300 6200
+Wire Wire Line
+	13300 6200 13300 6100
+Wire Wire Line
+	15350 4150 15000 4150
+Wire Wire Line
+	15000 4050 15000 3950
+Wire Wire Line
+	15000 3750 14900 3750
+Wire Wire Line
+	14900 4450 15000 4450
+Wire Wire Line
+	15000 4450 15000 4350
+Connection ~ 15000 4050
+Wire Wire Line
+	14900 3850 15000 3850
+Connection ~ 15000 3850
+Wire Wire Line
+	15000 3850 15000 3750
+Wire Wire Line
+	14900 3950 15000 3950
+Connection ~ 15000 3950
+Wire Wire Line
+	15000 3950 15000 3850
+Wire Wire Line
+	14900 4050 15000 4050
+Wire Wire Line
+	14900 4150 15000 4150
+Connection ~ 15000 4150
+Wire Wire Line
+	15000 4150 15000 4050
+Wire Wire Line
+	14900 4250 15000 4250
+Connection ~ 15000 4250
+Wire Wire Line
+	14900 4350 15000 4350
+Connection ~ 15000 4350
+Wire Wire Line
+	15000 4350 15000 4250
+Wire Wire Line
+	15000 4550 15000 4450
+Connection ~ 15000 4450
+Wire Wire Line
+	14900 4550 15000 4550
+Wire Wire Line
+	14900 4750 15000 4750
+Wire Wire Line
+	15000 4750 15000 4850
+Wire Wire Line
+	15000 5050 14900 5050
+Wire Wire Line
+	14900 4950 15000 4950
+Connection ~ 15000 4950
+Wire Wire Line
+	15000 4950 15000 5050
+Wire Wire Line
+	14900 4850 15000 4850
+Connection ~ 15000 4850
+Wire Wire Line
+	15000 4850 15000 4950
+Wire Wire Line
+	15350 4850 15000 4850
+Text GLabel 15050 5600 2    50   Input ~ 0
+ALERT_n
+Wire Wire Line
+	15050 5600 14900 5600
+Text GLabel 15050 6100 2    50   Input ~ 0
+PAR
+Wire Wire Line
+	15050 6100 14900 6100
+Text GLabel 13250 7050 0    50   Input ~ 0
+ACT_n
+Wire Wire Line
+	13250 7050 13400 7050
+Wire Wire Line
+	14900 5300 15000 5300
+Wire Wire Line
+	14900 5400 15000 5400
+Wire Wire Line
+	15000 5400 15000 5300
+Connection ~ 15000 5300
+NoConn ~ 13400 4400
+Text GLabel 13250 2700 0    50   Input ~ 0
+A0
+Wire Wire Line
+	13250 2700 13400 2700
+Text GLabel 13250 2800 0    50   Input ~ 0
+A1
+Wire Wire Line
+	13250 2800 13400 2800
+Text GLabel 13250 2900 0    50   Input ~ 0
+A2
+Wire Wire Line
+	13250 2900 13400 2900
+Text GLabel 13250 3000 0    50   Input ~ 0
+A3
+Wire Wire Line
+	13250 3000 13400 3000
+Text GLabel 13250 3100 0    50   Input ~ 0
+A4
+Wire Wire Line
+	13250 3100 13400 3100
+Text GLabel 13250 3200 0    50   Input ~ 0
+A5
+Wire Wire Line
+	13250 3200 13400 3200
+Text GLabel 13250 3300 0    50   Input ~ 0
+A6
+Wire Wire Line
+	13250 3300 13400 3300
+Text GLabel 13250 3400 0    50   Input ~ 0
+A7
+Wire Wire Line
+	13250 3400 13400 3400
+Text GLabel 13250 3500 0    50   Input ~ 0
+A8
+Wire Wire Line
+	13250 3500 13400 3500
+Text GLabel 13250 3600 0    50   Input ~ 0
+A9
+Wire Wire Line
+	13250 3600 13400 3600
+Text GLabel 13250 3700 0    50   Input ~ 0
+A10
+Wire Wire Line
+	13250 3700 13400 3700
+Text GLabel 13250 3800 0    50   Input ~ 0
+A11
+Wire Wire Line
+	13250 3800 13400 3800
+Text GLabel 13250 3900 0    50   Input ~ 0
+A12
+Wire Wire Line
+	13250 3900 13400 3900
+Text GLabel 13250 4000 0    50   Input ~ 0
+A13
+Wire Wire Line
+	13250 4000 13400 4000
+Text GLabel 13250 4100 0    50   Input ~ 0
+WE_n-A14
+Wire Wire Line
+	13250 4100 13400 4100
+Text GLabel 13250 4200 0    50   Input ~ 0
+CAS-A15
+Wire Wire Line
+	13250 4200 13400 4200
+Text GLabel 13250 4300 0    50   Input ~ 0
+RAS_n-A16
+Wire Wire Line
+	13250 4300 13400 4300
+Text GLabel 13250 6550 0    50   Input ~ 0
+BG0
+Wire Wire Line
+	13250 6550 13400 6550
+Text GLabel 13250 6650 0    50   Input ~ 0
+BG1
+Wire Wire Line
+	13250 6650 13400 6650
+Text GLabel 15050 6400 2    50   Input ~ 0
+BA0
+Wire Wire Line
+	15050 6400 14900 6400
+Text GLabel 15050 6500 2    50   Input ~ 0
+BA1
+Wire Wire Line
+	15050 6500 14900 6500
+Text GLabel 15050 6650 2    50   Input ~ 0
+CKE0
+Wire Wire Line
+	15050 6650 14900 6650
+NoConn ~ 14900 6750
+NoConn ~ 14900 6850
+NoConn ~ 14900 6950
+Text GLabel 15050 7050 2    50   Input ~ 0
+ODT0
+Wire Wire Line
+	15050 7050 14900 7050
+Text GLabel 15050 7250 2    50   Input ~ 0
+CS0_n
+Wire Wire Line
+	15050 7250 14900 7250
+NoConn ~ 14900 7450
+Wire Wire Line
+	15050 2700 14900 2700
+Wire Wire Line
+	15050 2800 14900 2800
+Wire Wire Line
+	14900 2900 15050 2900
+Wire Wire Line
+	15050 3000 14900 3000
+Wire Wire Line
+	14900 3100 15050 3100
+Wire Wire Line
+	14900 3200 15050 3200
+Wire Wire Line
+	14900 3300 15050 3300
+Wire Wire Line
+	15050 3400 14900 3400
+Wire Wire Line
+	15150 6250 14900 6250
+Wire Wire Line
+	15000 4150 15000 4250
+Wire Wire Line
+	14900 5800 15050 5800
+Wire Wire Line
+	14900 5900 15050 5900
+Wire Wire Line
+	14900 7550 15050 7550
+$Comp
+L DDR4:R R130
+U 1 1 68A235CF
+P 13200 7950
+F 0 "R130" V 13154 8038 50  0000 L CNN
+F 1 "240" V 13245 8038 50  0000 L CNN
+F 2 "" H 13200 7850 50  0001 C CNN
+F 3 "" H 13200 7850 50  0001 C CNN
+	1    13200 7950
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0130
+U 1 1 68A235D5
+P 15350 4150
+F 0 "#U0130" H 15350 3950 50  0001 C CNN
+F 1 "VSS" V 15350 4278 50  0000 L CNN
+F 2 "" H 15350 3950 50  0001 C CNN
+F 3 "" H 15350 3950 50  0001 C CNN
+	1    15350 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0131
+U 1 1 68A235DB
+P 15350 4850
+F 0 "#U0131" H 15350 4650 50  0001 C CNN
+F 1 "VSS" V 15350 4978 50  0000 L CNN
+F 2 "" H 15350 4650 50  0001 C CNN
+F 3 "" H 15350 4650 50  0001 C CNN
+	1    15350 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L DDR4:VSS #U0132
+U 1 1 68A235E1
+P 13200 8200
+F 0 "#U0132" H 13200 8000 50  0001 C CNN
+F 1 "VSS" H 13150 8350 50  0000 L CNN
+F 2 "" H 13200 8000 50  0001 C CNN
+F 3 "" H 13200 8000 50  0001 C CNN
+	1    13200 8200
+	-1   0    0    1   
+$EndComp
+$Comp
+L DDR4:VDD #U0133
+U 1 1 68A235E7
+P 12950 5050
+F 0 "#U0133" H 12950 4900 50  0001 C CNN
+F 1 "VDD" V 12950 5300 50  0000 R CNN
+F 2 "" H 12950 4900 50  0001 C CNN
+F 3 "" H 12950 4900 50  0001 C CNN
+	1    12950 5050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VSS #U0134
+U 1 1 68A235ED
+P 12950 5900
+F 0 "#U0134" H 12950 5700 50  0001 C CNN
+F 1 "VSS" V 12950 6028 50  0000 L CNN
+F 2 "" H 12950 5700 50  0001 C CNN
+F 3 "" H 12950 5700 50  0001 C CNN
+	1    12950 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DDR4:VREFCA #U0135
+U 1 1 68A235F3
+P 12950 6400
+F 0 "#U0135" H 12950 6200 50  0001 C CNN
+F 1 "VREFCA" V 12950 6800 50  0000 R CNN
+F 2 "" H 12950 6200 50  0001 C CNN
+F 3 "" H 12950 6200 50  0001 C CNN
+	1    12950 6400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	12950 6400 13400 6400
+$Comp
+L DDR4:VPP #U0136
+U 1 1 68A235FA
+P 15350 5300
+F 0 "#U0136" H 15350 5100 50  0001 C CNN
+F 1 "VPP" V 15350 5428 50  0000 L CNN
+F 2 "" H 15350 5100 50  0001 C CNN
+F 3 "" H 15350 5100 50  0001 C CNN
+	1    15350 5300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	15000 5300 15350 5300
+$Comp
+L DDR4:VSS #PWR0107
+U 1 1 68A23601
+P 15150 6250
+F 0 "#PWR0107" H 14950 6100 50  0001 C CNN
+F 1 "VSS" V 15150 6378 50  0000 L CNN
+F 2 "" H 15150 6250 50  0001 C CNN
+F 3 "" H 15150 6250 50  0001 C CNN
+	1    15150 6250
+	0    1    1    0   
+$EndComp
+Text GLabel 15050 3000 2    50   Input ~ 0
+DQ27
+Text GLabel 15050 3400 2    50   Input ~ 0
+DQ31
+Text GLabel 15050 2800 2    50   Input ~ 0
+DQ25
+Text GLabel 15050 3200 2    50   Input ~ 0
+DQ29
+Text GLabel 11500 3100 2    50   Input ~ 0
+DQ19
+Text GLabel 11500 3500 2    50   Input ~ 0
+DQ23
+Text GLabel 11500 2900 2    50   Input ~ 0
+DQ17
+Text GLabel 11500 3300 2    50   Input ~ 0
+DQ21
+Text GLabel 15050 2900 2    50   Input ~ 0
+DQ26
+Text GLabel 15050 3300 2    50   Input ~ 0
+DQ30
+Text GLabel 15050 2700 2    50   Input ~ 0
+DQ24
+Text GLabel 11500 3000 2    50   Input ~ 0
+DQ18
+Text GLabel 11500 3400 2    50   Input ~ 0
+DQ22
+Text GLabel 11500 2800 2    50   Input ~ 0
+DQ16
+Text GLabel 11500 3200 2    50   Input ~ 0
+DQ20
+Text GLabel 15050 3100 2    50   Input ~ 0
+DQ28
+Text GLabel 15050 5900 2    50   Input ~ 0
+DQS3_t
+Text GLabel 15050 5800 2    50   Input ~ 0
+DQS3_c
+Text GLabel 11500 6000 2    50   Input ~ 0
+DQS2_t
+Text GLabel 11500 5900 2    50   Input ~ 0
+DQS2_c
+Text GLabel 15050 7550 2    50   Input ~ 0
+DM3_n-DBI3_n
+Text GLabel 11500 7650 2    50   Input ~ 0
+DM2_n-DBI2_n
+Text GLabel 1350 7350 0    50   Input ~ 0
+CK0_c
+Text GLabel 1350 7450 0    50   Input ~ 0
+CK0_t
+Wire Wire Line
+	1350 7350 1500 7350
+Wire Wire Line
+	1350 7450 1500 7450
+Text GLabel 5300 7300 0    50   Input ~ 0
+CK0_c
+Text GLabel 5300 7400 0    50   Input ~ 0
+CK0_t
+Wire Wire Line
+	5300 7300 5450 7300
+Wire Wire Line
+	5300 7400 5450 7400
+Text GLabel 9700 7300 0    50   Input ~ 0
+CK0_c
+Text GLabel 9700 7400 0    50   Input ~ 0
+CK0_t
+Wire Wire Line
+	9700 7300 9850 7300
+Wire Wire Line
+	9700 7400 9850 7400
+Text GLabel 13250 7200 0    50   Input ~ 0
+CK0_c
+Text GLabel 13250 7300 0    50   Input ~ 0
+CK0_t
+Wire Wire Line
+	13250 7200 13400 7200
+Wire Wire Line
+	13250 7300 13400 7300
+$EndSCHEMATC
