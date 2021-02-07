@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name KiCad)(type KiCad)(uri ${KIPRJMOD}/KiCad.pretty)(options "")(descr ""))
+  (lib (name DDR3_UDIMM)(type KiCad)(uri ${KIPRJMOD}/DDR3_UDIMM.pretty)(options "")(descr ""))
+)
