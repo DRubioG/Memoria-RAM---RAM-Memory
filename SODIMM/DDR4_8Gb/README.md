@@ -8,6 +8,6 @@ This folder contains the KiCad files for the RAM memory
 
 This folder contains the datasheet files for the RAM memory
 
-- [Schematic](/DDR4_8Gb_SODIMM_Schematic.pdf)
+- [Schematic](DDR4_8Gb_SODIMM_Schematic.pdf)
 
 The schematic of the RAM memory
