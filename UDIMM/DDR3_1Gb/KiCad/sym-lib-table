@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name DDR3)(type Legacy)(uri ${KIPRJMOD}/DDR3.lib)(options "")(descr ""))
+  (lib (name DDR3_1Gb-rescue)(type Legacy)(uri ${KIPRJMOD}/DDR3_1Gb-rescue.lib)(options "")(descr ""))
 )
